@@ -1,3 +1,18 @@
 [
-
+    {
+        "model": "RandomForestClassifier(max_depth=20, min_samples_leaf=4, min_samples_split=8,\n                       n_estimators=500)",
+        "Cross-Validation F1": 0.6523297754876701,
+        "Accuracy": 0.5576923076923077,
+        "Precision": 0.631578947368421,
+        "Recall": 0.42857142857142855,
+        "F1": 0.5106382978723404
+    },
+    {
+        "model": "XGBClassifier(base_score=None, booster=None, callbacks=None,\n              colsample_bylevel=None, colsample_bynode=None,\n              colsample_bytree=0.7224162561505759, device=None,\n              early_stopping_rounds=None, enable_categorical=False,\n              eval_metric=None, feature_types=None, gamma=None,\n              grow_policy=None, importance_type=None,\n              interaction_constraints=None, learning_rate=0.27642953128411935,\n              max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,\n              max_delta_step=None, max_depth=4, max_leaves=None,\n              min_child_weight=None, missing=nan, monotone_constraints=None,\n              multi_strategy=None, n_estimators=273, n_jobs=None,\n              num_parallel_tree=None, random_state=None, ...)",
+        "Cross-Validation F1": 0.6544227948879111,
+        "Accuracy": 0.5,
+        "Precision": 0.5454545454545454,
+        "Recall": 0.42857142857142855,
+        "F1": 0.48
+    }
 ]
